@@ -1,0 +1,29 @@
+{
+  "name": "@qmoosa/crosschain-dashboard",
+  "version": "1.0.0",
+  "description": "QMOOSA Cross-Chain Dashboard — Web4 Atomic Swap Bridge Terminal, Health Visualizer & Telemetry Store",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/dashboard.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "crosschain",
+    "htlc",
+    "atomic-swap",
+    "dashboard",
+    "web4",
+    "telemetry",
+    "defi"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
